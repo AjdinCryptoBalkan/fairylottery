@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+
+}
+.logo-img{
+    width: 40px;
+
+
+}
+.logo{
+    width: 130px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Meni{
+    list-style: none;
+    li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+}
+.found{
+    display: flex;
+    width: 120px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    background-color: #EBE7E6;
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 4px;
+    justify-content: space-around;
+    p{
+        padding-top: 14px;
+    }
+}
+.btn-new{
+    width: 140px;
+    height: 44px;
+    background-color: #01B78F;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    justify-content: space-around;
+}
+.main-navbar{
+    padding-top: 30px;
+}
+.lottery-block{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.Sum-input{
+display: block;
+min-width: 700px;
+height: 48px;
+padding: 0px 30px;
+border-radius: 100px;
+background-color: #F5F5F5;
+border: 1px solid #B8B8B8;
+margin-bottom: 20px;
+}
+.Laverage-input{
+    display: block;
+    min-width: 700px;
+    height: 48px;
+    padding: 0px 30px;
+    border-radius: 100px;
+    background-color: #F5F5F5;
+    border: 1px solid #B8B8B8;
+margin-bottom: 20px;
+
+
+}
+.up-btn{
+    min-width: 500px;
+    background-color: #01B78F;
+    height: 48px;
+    border: 1px solid #B8B8B8;
+    border-radius: 100px;
+    color: white;
+}
+.sum-label{
+    display: none;
+position: relative;
+top: -10px;
+}
+.laverage-label{
+    display: none;
+    position: relative;
+    top: -10px;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}

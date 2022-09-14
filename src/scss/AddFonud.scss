@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.Meni{
+    list-style: none;
+    li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+}
+.found{
+    display: flex;
+    width: 120px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    background-color: #EBE7E6;
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 4px;
+    justify-content: space-around;
+    p{
+        padding-top: 14px;
+    }
+}
+.sum-input{
+    display: block;
+    width: 600px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #B8B8B8;
+    margin-bottom: 20px;
+}
+.card-input{
+    display: block;
+    width: 600px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #B8B8B8;
+}
+.date-input{
+   
+    width: 290px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: #F5F5F5;
+    margin: 10px;
+    border: 1px solid #B8B8B8;
+}
+.CVV-input{
+    
+    width: 290px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #B8B8B8;
+}
+.CardHolderName-input{
+    display: block;
+    width: 600px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #B8B8B8;
+}
+.btn-pay{
+    
+    width: 151px;
+    height: 44px;
+    background-color: #01B78F;
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 20px 0px;
+}
+.paypal-btn{
+    
+    width: 151px;
+    height: 44px;
+    background-color: #01B78F;
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.input-section{
+padding-top: 250px;
+}
